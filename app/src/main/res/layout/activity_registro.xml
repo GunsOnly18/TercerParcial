@@ -12,7 +12,7 @@
         android:id="@+id/Registro"
         android:layout_width="171dp"
         android:layout_height="54dp"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="28dp"
         android:layout_marginBottom="32dp"
         android:text="@string/Fin"
         android:textColor="#FFFFFF"
@@ -20,7 +20,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/EmailR"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.397"
         tools:ignore="TextContrastCheck" />
 
     <Button
@@ -36,14 +36,14 @@
         app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toEndOf="@+id/Registro"
         app:layout_constraintTop_toBottomOf="@+id/EmailR"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.421"
         tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="5dp"
         android:text="@string/es_momento_del_registro"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
@@ -71,7 +71,7 @@
         android:id="@+id/textView11"
         android:layout_width="193dp"
         android:layout_height="32dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="20dp"
         android:text="@string/nombre"
         android:textAlignment="center"
         android:textColor="#000000"
