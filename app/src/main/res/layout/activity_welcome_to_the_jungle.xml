@@ -9,12 +9,12 @@
     tools:context=".welcome_to_the_jungle">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView25"
         android:layout_width="301dp"
         android:layout_height="134dp"
-        android:text="@string/felicidades_has_logrado_entrar_al_programa"
+        android:text="Hola mundo"
         android:textAlignment="center"
-        android:textColor="#FF0000"
+        android:textColor="#070707"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

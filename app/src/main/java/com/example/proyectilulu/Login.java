@@ -38,6 +38,8 @@ public class Login extends AppCompatActivity {
         EditText passws = findViewById(R.id.Password);
         Read();
         json2List(json);
+
+
         Acceso.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -114,6 +116,7 @@ public class Login extends AppCompatActivity {
         for(MyInfo myInfo : list){
             if (myInfo.getUsuario().equals(usr)&&myInfo.getContraseña().equals(passw)){
                 Intent intent = new Intent(Login.this, welcome_to_the_jungle.class);
+                intent.putExtra("Objeto", myInfo);
                 startActivity(intent);
                 i = 1;
 
